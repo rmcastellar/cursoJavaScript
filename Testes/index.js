@@ -1,0 +1,1 @@
+console.log("Testes index.js funcionando!");

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: rgb(20, 20, 20);
+}
+
+header {
+  background-color: #777373;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+nav {
+  background-color: #ababab;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+div.principal {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 0px 20px;
+}
+
+.TituloDivPrincipal {
+  grid-column: 1 / span 2;
+  padding: 0px;
+  text-align: center;
+}
+
+aside {
+  background-color: #d7aaaa;
+  padding: 15px;
+  margin: 10px 0px;
+  width: 200px;
+  height: 400px;
+}
+
+main {
+  background-color: #e38282;
+  padding: 15px;
+  margin: 10px 0px;
+  height: 400px;
+}
+
+div.secundaria {
+  background-color: rgb(126, 181, 200);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.span {
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 3fr;
+}
+
+section.Especial {
+  background-color: #eebfbf;
+  padding: 15px;
+  margin: 20px;
+  display: grid;
+  gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  background-color: #d3d4d4;
+  padding: 20px;
+  width: auto;
+
+}
